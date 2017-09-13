@@ -23,7 +23,7 @@ describe('Objects', function() {
       expect(obj['prop2']).toBe(undefined)
     })
   })
-/*
+
   describe('destructivelyUpdateObjectWithKeyAndValue(object, key, value)', function() {
     it('updates `object` with the given `key` and `value` (it is destructive) and returns the entire updated object', function() {
       var obj = { prop: 1 }
@@ -39,7 +39,7 @@ describe('Objects', function() {
       })
     })
   })
-
+/*
   describe('deleteFromObjectByKey(object, key)', function() {
     it('deletes `key` from a clone of object and returns the new object (it is non-destructive)', function() {
       var obj = { prop: 1 }
