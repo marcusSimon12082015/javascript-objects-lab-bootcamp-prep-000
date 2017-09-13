@@ -4,7 +4,7 @@ describe('Objects', function() {
   it('defines a `recipes` object', function() {
     expect(typeof recipes).toEqual('object')
   })
-/*
+
   describe('updateObjectWithKeyAndValue(object, key, value)', function() {
     it('returns an object with the orignal key value pairs and the new key value pair', function() {
       var obj = { prop: 1 }
@@ -23,7 +23,7 @@ describe('Objects', function() {
       expect(obj['prop2']).toBe(undefined)
     })
   })
-
+/*
   describe('destructivelyUpdateObjectWithKeyAndValue(object, key, value)', function() {
     it('updates `object` with the given `key` and `value` (it is destructive) and returns the entire updated object', function() {
       var obj = { prop: 1 }
