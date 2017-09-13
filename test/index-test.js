@@ -39,7 +39,7 @@ describe('Objects', function() {
       })
     })
   })
-/*
+
   describe('deleteFromObjectByKey(object, key)', function() {
     it('deletes `key` from a clone of object and returns the new object (it is non-destructive)', function() {
       var obj = { prop: 1 }
@@ -55,7 +55,7 @@ describe('Objects', function() {
       expect(obj['prop']).toBe(1)
     })
   })
-
+/*
   describe('destructivelyDeleteFromObjectByKey(object, key)', function() {
     it('returns object without the delete key/value pair', function() {
       var obj = { prop: 1 }
